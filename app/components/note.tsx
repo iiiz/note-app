@@ -41,7 +41,7 @@ export default function Note() {
           name="description"
           rows={2}
           placeholder="Write a description..."
-          className="block w-full h-full border-0 py-0 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm/6"
+          className="block w-full h-full resize-none border-0 py-0 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm/6"
           defaultValue={""}
         />
       </div>
